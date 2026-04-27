@@ -1,9 +1,9 @@
 module github.com/eshdc/notification-service
 
-go 1.23.0
+go 1.22.0
 
 require (
-	github.com/gin-gonic/gin v1.12.0
+	github.com/gin-gonic/gin v1.10.0
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/gorilla/websocket v1.5.3
 	gorm.io/driver/postgres v1.6.0
