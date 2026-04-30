@@ -16,7 +16,7 @@ func main() {
 	config.InitDB()
 	utils.InitRedis()
 
-	if os.Getenv("SEED") == "true" {
+	if os.Getenv("SEED_DB") == "true" {
 		config.SeedTemplates()
 	}
 
